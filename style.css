@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+    height: 500px;
+    font-family: 'Harry Potter', sans-serif;
+  }
+  .character-image{
+    height: 100px;
+    width: 100px;
+    transition: transform 0.3s ease;
+
+  }
+  .character-image:hover{
+    transform: scale(1.8);
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+  td{
+    border:5px solid #74000284;
+  }
+  
+  th {
+    background-color: #74000255;
+    border:5px solid #74000284;
+    font-weight: bolder;
+  }
+  
+  td:hover {
+    background-color: #d3a42571;
+  }
